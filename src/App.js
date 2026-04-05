@@ -37,13 +37,17 @@ import './App.css';
 
 import Catalogue from "./Components/Catalogue";
 import Produit from "./Components/Produit";
+import Header from "./Components/Header";
+import Footer from "./Components/Footer";
 function App(){
 
   return(
     <div className="App" style={{textAlign:"center"}}>
+      <Header />
 
       <h1>Catalogue de Produits:</h1>
       <Catalogue/>
+      <Footer />
       
       
     </div>
