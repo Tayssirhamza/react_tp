@@ -1,6 +1,6 @@
 import React from "react";
 
-function App() {
+/*function App() {
   // ex1:
   const nom = "Tayssir";
   const ville = "Monastir";
@@ -29,6 +29,25 @@ function App() {
     </div>
   );
   
+}*/
+
+//tp2:
+
+import './App.css';
+
+import Catalogue from "./Components/Catalogue";
+import Produit from "./Components/Produit";
+function App(){
+
+  return(
+    <div className="App" style={{textAlign:"center"}}>
+
+      <h1>Catalogue de Produits:</h1>
+      <Catalogue/>
+      
+      
+    </div>
+  );
 }
 
 export default App;
